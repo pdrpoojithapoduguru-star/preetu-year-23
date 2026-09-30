@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Preetu: Year 23 ♡</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         INTRO SCREEN
+    ========================================== -->
+
+    <section id="intro-screen" class="screen active">
+
+        <div class="intro-decoration top-bow">🎀</div>
+
+        <div class="intro-card">
+
+            <p class="tiny-label">A LITTLE WORLD MADE FOR</p>
+
+            <h1 class="intro-name">PREETU</h1>
+
+            <div class="year-line">
+                <span></span>
+                <h2>YEAR 23</h2>
+                <span></span>
+            </div>
+
+            <p class="intro-text">
+                One birthday.<br>
+                One whole year.<br>
+                A few things waiting for you along the way.
+            </p>
+
+            <button id="enter-button" class="main-button">
+                ENTER ♡
+            </button>
+
+            <p class="tiny-note">
+                made with an unreasonable amount of love from your soulmate
+            </p>
+
+        </div>
+
+        <div class="floating-heart heart-one">♡</div>
+        <div class="floating-heart heart-two">♡</div>
+        <div class="floating-heart heart-three">♡</div>
+
+    </section>
+
+
+    <!-- =========================================
+         HOME / BEDROOM SCREEN
+    ========================================== -->
+
+    <section id="home-screen" class="screen">
+
+        <header class="home-header">
+
+            <p class="tiny-label">WELCOME TO</p>
+
+            <h1>PREETU: YEAR 23</h1>
+
+            <p id="day-counter" class="day-counter">
+                Day 4 of 365 ♡
+            </p>
+
+        </header>
+
+
+        <main class="bedroom">
+
+            <!-- decorative background objects -->
+
+            <div class="wall-decoration bow-one">🎀</div>
+            <div class="wall-decoration sparkle-one">✦</div>
+            <div class="wall-decoration sparkle-two">✧</div>
+
+            <div class="picture-frame">
+                <div class="frame-number">23</div>
+                <small>This is your year, love</small>
+            </div>
+
+
+            <!-- VAULT -->
+
+            <button class="room-object vault-object"
+                    data-feature="vault-screen">
+
+                <span class="object-icon">🔐</span>
+
+                <span class="object-name">
+                    THE VAULT
+                </span>
+
+                <span class="object-subtitle">
+                    Things are waiting
+                </span>
+
+            </button>
+
+
+            <!-- APPRECIATION -->
+
+            <button class="room-object appreciation-object"
+                    data-feature="appreciation-screen">
+
+                <span class="object-icon">💗</span>
+
+                <span class="object-name">
+                    APPRECIATION
+                </span>
+
+                <span class="object-subtitle">
+                    Certified Preetu Facts
+                </span>
+
+            </button>
+
+
+            <!-- WHEEL -->
+
+            <button class="room-object wheel-object"
+                    data-feature="wheel-screen">
+
+                <span class="object-icon">🎡</span>
+
+                <span class="object-name">
+                    MINI WHEEL
+                </span>
+
+                <span class="object-subtitle">
+                    Surrender Control
+                </span>
+
+            </button>
+
+
+            <!-- EMERGENCY -->
+
+            <button class="room-object emergency-object"
+                    data-feature="emergency-screen">
+
+                <span class="object-icon">🚨</span>
+
+                <span class="object-name">
+                    EMERGENCY
+                </span>
+
+                <span class="object-subtitle">
+                    Definitely Medical
+                </span>
+
+            </button>
+
+
+            <!-- TREATS -->
+
+            <button class="room-object treat-object"
+                    data-feature="treat-screen">
+
+                <span class="object-icon">🎟️</span>
+
+                <span class="object-name">
+                    LITTLE TREAT
+                </span>
+
+                <span class="object-subtitle">
+                    Friendship Benefits
+                </span>
+
+            </button>
+
+
+            <!-- TIME CAPSULE -->
+
+            <button class="room-object capsule-object"
+                    data-feature="capsule-screen">
+
+                <span class="object-icon">💌</span>
+
+                <span class="object-name">
+                    TIME CAPSULE
+                </span>
+
+                <span class="object-subtitle">
+                    For 24-year-old You
+                </span>
+
+            </button>
+
+        </main>
+
+
+        <footer class="home-footer">
+            <p>made for Preetu, obviously ♡</p>
+        </footer>
+
+    </section>
+
+
+    <!-- =========================================
+         VAULT
+    ========================================== -->
+
+    <section id="vault-screen" class="screen feature-screen">
+
+        <button class="back-button">← BACK TO MY ROOM</button>
+
+        <div class="feature-container">
+
+            <p class="feature-eyebrow">🔐 CLASSIFIED BEHEN BUSINESS</p>
+
+            <h2>THE YEAR 23 VAULT</h2>
+
+            <p class="feature-description">
+                I left things for you throughout this year.
+                Some are important. Some are stupid.
+                Some exist because I felt like bothering you from the future.
+            </p>
+
+            <p class="feature-warning">
+                You can't open them early.<br>
+                Yes, I know you're going to try.
+                That's why they're locked 😘
+            </p>
+
+            <div id="vault-grid" class="vault-grid">
+                <!-- JavaScript will create the vault cards -->
+            </div>
+
+            <p class="signature">— Pooja ♡</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         APPRECIATION MACHINE
+    ========================================== -->
+
+    <section id="appreciation-screen" class="screen feature-screen">
+
+        <button class="back-button">← BACK TO MY ROOM</button>
+
+        <div class="feature-container">
+
+            <p class="feature-eyebrow">💗 EXTREMELY SCIENTIFIC OFC</p>
+
+            <h2>PREETU APPRECIATION MACHINE™</h2>
+
+            <p class="feature-description">
+                In case you temporarily forget that you're loved,
+                this machine has been authorized to remind you.
+            </p>
+
+            <div class="machine-box">
+
+                <div class="machine-heart">♡</div>
+
+                <p id="appreciation-progress">
+                    Appreciations dispensed: 0 / 23
+                </p>
+
+                <button id="appreciation-button"
+                        class="feature-button">
+
+                    TELL ME SOMETHING ♡
+
+                </button>
+
+            </div>
+
+
+            <div id="appreciation-result"
+                 class="result-card hidden">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MINI WHEEL
+    ========================================== -->
+
+    <section id="wheel-screen" class="screen feature-screen">
+
+        <button class="back-button">← BACK TO MY ROOM</button>
+
+        <div class="feature-container">
+
+            <p class="feature-eyebrow">🎡 DECISION-MAKING PRIVILEGES REVOKED</p>
+
+            <h2>PREETU'S MINI WHEEL OF FATE™</h2>
+
+            <p class="feature-description">
+                Can't decide what to do?
+                Perfect. Let the wheel decide.
+            </p>
+
+            <div class="wheel-wrapper">
+
+                <div class="wheel-pointer">▼</div>
+
+                <div id="wheel" class="wheel">
+
+                    <span class="wheel-center">
+                        P
+                    </span>
+
+                </div>
+
+            </div>
+
+            <button id="spin-button"
+                    class="feature-button">
+
+                SPIN FOR YOUR FATE
+
+            </button>
+
+            <div id="wheel-result"
+                 class="result-card hidden">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         EMERGENCY BUTTON
+    ========================================== -->
+
+    <section id="emergency-screen"
+             class="screen feature-screen emergency-page">
+
+        <button class="back-button">← BACK TO MY ROOM</button>
+
+        <div class="feature-container">
+
+            <p class="feature-eyebrow">
+                🚨 FOR PREETU EMERGENCIES ONLY
+            </p>
+
+            <h2>THE BIG RIDICULOUS EMERGENCY BUTTON</h2>
+
+            <p class="feature-description">
+                This button should probably not be trusted.
+            </p>
+
+            <button id="emergency-button"
+                    class="giant-emergency-button">
+
+                <span>DO NOT</span>
+                <strong>PRESS</strong>
+
+            </button>
+
+            <div id="emergency-result"
+                 class="result-card emergency-result hidden">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         LITTLE TREAT MACHINE
+    ========================================== -->
+
+    <section id="treat-screen"
+             class="screen feature-screen">
+
+        <button class="back-button">← BACK TO MY ROOM</button>
+
+        <div class="feature-container">
+
+            <p class="feature-eyebrow">🎟️ FRIENDSHIP BENEFITS DEPARTMENT</p>
+
+            <h2>PREETU'S LITTLE TREAT DISPENSER™</h2>
+
+            <p class="feature-description">
+                Because surviving life definitely deserves compensation. Duh.
+            </p>
+
+            <div class="treat-machine">
+
+                <div class="treat-window">
+                    LITTLE<br>TREAT
+                </div>
+
+                <div class="treat-slot"></div>
+
+                <button id="treat-button"
+                        class="feature-button">
+
+                    GIVE ME A LITTLE TREAT ♡
+
+                </button>
+
+            </div>
+
+            <div id="treat-result"
+                 class="result-card hidden">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         TIME CAPSULE
+    ========================================== -->
+
+    <section id="capsule-screen"
+             class="screen feature-screen">
+
+        <button class="back-button">← BACK TO MY ROOM</button>
+
+        <div class="feature-container">
+
+            <p class="feature-eyebrow">💌 FOR FUTURE PREETU</p>
+
+            <h2>A LETTER FROM 23-YEAR-OLD PREETU</h2>
+
+            <div id="capsule-content"
+                 class="capsule-card">
+
+                <!-- JavaScript controls locked/unlocked state -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MODAL
+         Used for Vault messages etc.
+    ========================================== -->
+
+    <div id="modal" class="modal hidden">
+
+        <div class="modal-card">
+
+            <button id="modal-close"
+                    class="modal-close"
+                    aria-label="Close">
+
+                ×
+
+            </button>
+
+            <div id="modal-content"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
